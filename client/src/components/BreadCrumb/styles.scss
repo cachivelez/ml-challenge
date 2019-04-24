@@ -1,0 +1,11 @@
+.breadcrumb{
+  p{
+    margin: initial;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #999999;
+  }
+  p span:last-child span{
+    display: none;
+  }
+}

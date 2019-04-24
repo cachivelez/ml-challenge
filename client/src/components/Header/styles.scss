@@ -1,0 +1,46 @@
+.header{
+  padding: 10px 150px;
+  background-color: #FFE600;
+  display: flex;
+  align-items: center;
+}
+.header img{
+  margin-right: 25px;
+}
+
+.header form{
+  display: flex;
+  width: 100%;
+}
+
+.header label{
+  width: 100%;
+}
+
+.header input{
+  height: 30px;
+  width: calc(100% - 20px);
+  border:none;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px 0 0 3px;
+}
+
+.header .search{
+  display: flex;
+  background-color: #eeeeee;
+  align-items: center;
+  border-radius: 0 3px 3px 0px;
+}
+.header .search input{
+  height: 15px;
+  width: initial;
+  padding: 8px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .header{
+    padding: 10px 15px;
+  }
+}
